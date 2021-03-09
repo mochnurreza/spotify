@@ -1,0 +1,30 @@
+.login {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: #222020;
+}
+
+.login > img {
+    width: auto;
+    height: 200px;
+}
+
+.login > a {
+    border-radius: 50px;
+    background: linear-gradient(145deg, #242222, #1f1d1d);
+    box-shadow:  20px 20px 35px #1b1919,
+             -20px -20px 35px #292727;
+    padding: 20px;
+    text-decoration: none;
+    color: #1abc53;
+}
+
+.login > a:hover {
+    border-radius: 50px;
+    background: linear-gradient(145deg, #15883c, #19a248);
+    box-shadow:  20px 20px 35px #1b1919,
+             -20px -20px 35px #292727;
+    text-decoration: none;
+    color: white;
+}
