@@ -5,11 +5,15 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Provider } from './provide/Provider';
 import reducer, { initialState } from './reducer/reducer';
+import { SoundLayer } from './provide/soundProvider';
+import sounReducer, { soundInitialState } from './reducer/soundReducer';
 
 ReactDOM.render(
   <React.StrictMode>
     <Provider initialState={initialState} reducer={reducer}>
-    <App />
+      <SoundLayer initialState={soundInitialState} reducer={sounReducer}>
+        <App />
+      </SoundLayer>
     </Provider>
   </React.StrictMode>,
   document.getElementById('root')

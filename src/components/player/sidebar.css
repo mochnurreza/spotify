@@ -1,28 +1,30 @@
 .sidebar {
-    height: 100vh;
-    color: white;
-    padding-left: 10px;
-    padding-right: 10px;
-    flex: 0.2;
-    min-width: 230px;
-    background-color: #1abc53;
+   display: flex;
+   flex-direction: column;
+   flex: 0.2;
+   padding-left: 10px;
+   padding-right: 10px;
+   min-width: 230px;
+   height: 100vh;
+   color: #fff;
+   background-color: #040404;
+}
+
+.sidebar_title {
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.sidebar__logo {
+    margin-right: auto;
+    height: 70px;
+    padding: 10px;
 }
 
 .sidebar > hr {
-    border: 1px solid #222020;
+    border: 1px solid #282828;
     width: 90%;
     margin: 10px auto;
 }
 
-.sidebar__logo {
-    height: 100px;
-    width: auto;
-    padding: 10px;
-    margin: auto;
-  }
-
-.sidebar__title {
-    margin-left: 5px;
-    padding: 5px;
-    font-size: 12px;
-  }
